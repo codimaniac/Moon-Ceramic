@@ -57,3 +57,18 @@ div {
             transform: scale(1);
     }
 }
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1692px);
+    }
+}
+
+@media (max-width: 1279px) {
+    .animate-slide {
+        animation: slide 60s linear infinite;
+    }
+}
