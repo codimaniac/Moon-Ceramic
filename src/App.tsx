@@ -1,9 +1,12 @@
-import Home from "./features/home/pages/Home"
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css'
+import { Home } from "./features/home"
 
 function App() {
 
   return (
     <>
+      <ToastContainer />
       <Home />
     </>
   )

@@ -1,6 +1,14 @@
+import { NavBar } from "../../../components"
+import { Categories, Hero } from "../components"
+
 const Home = () => {
+
   return (
-    <div className="text-6xl">Home</div>
+    <>
+      <NavBar />
+      <Hero  />
+      <Categories />
+    </>
   )
 }
 
