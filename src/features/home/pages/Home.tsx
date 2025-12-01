@@ -1,16 +1,19 @@
-import { NavBar } from "../../../components"
-import { BestSellerGrid, Categories, Hero, SalesBanner } from "../components"
+import { PageLayout } from "../../../components"
+import { BestSellerGrid, Blog, BrandHistory, Categories, Hero, NewArrival, NewsLetter, SalesBanner } from "../components"
 
 const Home = () => {
 
   return (
-    <>
-      <NavBar />
-      <Hero  />
+    <PageLayout>
+      <Hero />
       <Categories />
       <SalesBanner />
       <BestSellerGrid />
-    </>
+      <BrandHistory />
+      <NewArrival />
+      <Blog />
+      <NewsLetter />
+    </PageLayout>
   )
 }
 
