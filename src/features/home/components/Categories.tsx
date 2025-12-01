@@ -12,13 +12,15 @@ const Categories = () => {
     {name: 'Holiday', image: '../src/assets/holiday-category.jpg'},
     {name: 'Collection', image: '../src/assets/collection-category.jpg'},
   ]
+  const copy = categories.slice()
+  const displayedCategories = categories.concat(copy)
   
   return (
     <SectionLayout className="py-8 lg:py-12">
         <div className="flex h-70 w-full overflow-hidden">
           <div className="flex justify-between gap-8 animate-slide">
             {
-              categories.map((category, index) => {
+              displayedCategories.map((category, index) => {
                 return (
                   <div key={index} className="flex flex-col items-center justify-center gap-6 flex-1">
                       <div className="bg-cover bg-center h-56 w-56 shrink-0" style={{ backgroundImage: `url('${category.image}')` }}></div>

@@ -63,7 +63,7 @@ div {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-1692px);
+        transform: translateX(-1024px);
     }
 }
 
