@@ -1,4 +1,7 @@
 export { default as NavBar } from "./NavBar"
+export { default as NavMenuItems } from "./NavMenuItems"
 export { default as SectionLayout } from "./SectionLayout"
 export { default as ErrorBoundary } from "./ErrorBoundary"
 export { default as Button } from "./Button"
+export { default as ProductCard } from "./ProductCard"
+export { default as ProductGrid } from "./ProductGrid"

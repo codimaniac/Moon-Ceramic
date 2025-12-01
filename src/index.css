@@ -5,6 +5,7 @@
     --color-maize: oklch(87.442% 0.06474 58.387);     /* Beige Peach */
     --color-antique-brass: oklch(72.15% 0.0678 58.037);     /* Light Brown */
     --color-dark-brown: oklch(55.701% 0.02767 46.797);          /* Dark Brown */
+    --color-desert-storm: oklch(97.363% 0.00161 66.248);
 
     /* Neutral Colors */
     --color-neutral-custom-100: oklch(1 0 0); /* white */

@@ -12,8 +12,8 @@ const Categories = () => {
     {name: 'Holiday', image: '../src/assets/holiday-category.jpg'},
     {name: 'Collection', image: '../src/assets/collection-category.jpg'},
   ]
-  const copy = categories.slice()
-  const displayedCategories = categories.concat(copy)
+  const copy: Category[] = categories.slice()
+  const displayedCategories: Category[] = categories.concat(copy)
   
   return (
     <SectionLayout className="py-8 lg:py-12">

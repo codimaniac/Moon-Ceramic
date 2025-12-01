@@ -1,5 +1,5 @@
 import { NavBar } from "../../../components"
-import { Categories, Hero } from "../components"
+import { BestSellerGrid, Categories, Hero, SalesBanner } from "../components"
 
 const Home = () => {
 
@@ -8,6 +8,8 @@ const Home = () => {
       <NavBar />
       <Hero  />
       <Categories />
+      <SalesBanner />
+      <BestSellerGrid />
     </>
   )
 }
