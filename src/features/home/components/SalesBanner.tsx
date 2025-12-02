@@ -1,8 +1,7 @@
 import { Button, SectionLayout } from "../../../components";
+import SalesImg from "../../../assets/sales-image.jpg";
 
 const SalesBanner = () => {
-  const salesImg = "../src/assets/sales-image.jpg";
-
   return (
     <SectionLayout>
       <div className="flex flex-col min-[820px]:flex-row">
@@ -20,7 +19,7 @@ const SalesBanner = () => {
         </div>
         <div
           className="min-[820px]:flex-1 w-full h-70 bg-cover bg-center"
-          style={{ backgroundImage: `url('${salesImg}')` }}
+          style={{ backgroundImage: `url('${SalesImg}')` }}
         ></div>
       </div>
     </SectionLayout>
