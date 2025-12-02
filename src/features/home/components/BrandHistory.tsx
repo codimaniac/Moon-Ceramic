@@ -1,6 +1,6 @@
 import { Button, SectionLayout } from "../../../components";
 import CeramicImageOne from "../../../assets/history-1.jpg"
-import CeramicImageTwo from "../../../assets/history-2.jpg"
+import CeramicImageTwo from "../../../assets/history-2.png"
 
 const BrandHistory = () => {
   return (
