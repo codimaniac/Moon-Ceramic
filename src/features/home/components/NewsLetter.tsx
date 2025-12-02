@@ -8,7 +8,7 @@ const NewsLetter = () => {
         <h2 className="text-neutral-custom-800 text-2xl times text-center font-semibold uppercase tracking-wider">
           For News, Collections & More
         </h2>
-        <input type="email" name="email" id="email" placeholder="Enter your email address" className="border-b text-center w-100 text-sm p-2" />
+        <input type="email" name="email" id="email" placeholder="Enter your email address" className="border-b text-center w-80 text-sm p-2 outline-0 text-neutral-custom-700 hover:bg-neutral-custom-200" />
         <Button className="border border-primary mt-2">Sign Up</Button>
       </div>
     </SectionLayout>

@@ -10,8 +10,8 @@ import Button from "./Button"
 
 const ProductCard = () => {
   return (
-    <div className="flex flex-col gap-4 w-45 tracking-wider md:w-55 lg:w-50 xl:w-55">
-      <div className="w-full h-60 overflow-hidden"><img src={Image} alt="Bowl" /></div>
+    <div className="flex flex-col gap-4 w-45 tracking-wider max-[391px]:w-60 md:w-55 lg:w-50 xl:w-55">
+      <div className="w-full h-60 max-[391px]:h-72 overflow-hidden"><img src={Image} alt="Bowl" /></div>
       <div className="flex flex-col gap-2 uppercase text-xs font-semibold">
         <h3 className="text-primary">Small Ecur Ceramic Compote</h3>
         <span>$43.00</span>

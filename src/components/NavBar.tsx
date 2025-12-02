@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo-dark.svg'
 import Menu from '../assets/icons/Menu.svg'
 import Search from '../assets/icons/Search.svg'
 import Avatar from '../assets/icons/Avatar.svg'
