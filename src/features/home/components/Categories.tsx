@@ -1,4 +1,8 @@
 import { SectionLayout } from "../../../components"
+import Tableware from '../../../assets/tableware-category.jpg';
+import HomeDecor from '../../../assets/home-decor-category.jpg';
+import Holiday from '../../../assets/holiday-category.jpg'
+import Collection from '../../../assets/collection-category.jpg'
 
 type Category = {
   name: string,
@@ -7,10 +11,10 @@ type Category = {
 
 const Categories = () => {
   const categories: Category[] = [
-    {name: 'Tableware', image: '../src/assets/tableware-category.jpg'},
-    {name: 'Home Decor', image: '../src/assets/home-decor-category.jpg'},
-    {name: 'Holiday', image: '../src/assets/holiday-category.jpg'},
-    {name: 'Collection', image: '../src/assets/collection-category.jpg'},
+    {name: 'Tableware', image: Tableware},
+    {name: 'Home Decor', image: HomeDecor},
+    {name: 'Holiday', image: Holiday},
+    {name: 'Collection', image: Collection},
   ]
   const copy: Category[] = categories.slice()
   const displayedCategories: Category[] = categories.concat(copy)
