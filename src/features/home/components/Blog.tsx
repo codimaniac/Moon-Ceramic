@@ -2,10 +2,11 @@ import { Button, SectionLayout } from "../../../components";
 import BlogImage from "../../../assets/tableware-blog.jpg";
 
 const Blog = () => {
-
   return (
     <SectionLayout>
-      <h2 className="text-neutral-custom-800 text-3xl times text-center font-medium uppercase tracking-wider mb-12">Our Blog</h2>
+      <h2 className="text-neutral-custom-800 text-3xl times text-center font-medium uppercase tracking-wider mb-8 lg:mb-12">
+        Our Blog
+      </h2>
       <div className="grid grid-cols-1 min-[820px]:grid-cols-2">
         <div className="flex flex-col flex-1 items-center justify-center gap-4 px-6 py-12 bg-desert-storm min-[820px]:py-0">
           <h2 className="uppercase text-neutral-custom-600 text-sm font-semibold tracking-wide">
