@@ -1,6 +1,11 @@
 import { Button } from "../../../components";
 import LogoIcon from "../../../../public/Icon.svg";
 import { useSlide } from "../hooks/useSlide";
+import Slide_1 from "../../../assets/slider-1.jpg"
+import Slide_2 from "../../../assets/slider-2.jpg"
+import Slide_3 from "../../../assets/slider-3.jpg"
+import Slide_4 from "../../../assets/slider-4.jpg"
+import Slide_5 from "../../../assets/slider-5.jpg"
 
 interface SlideState {
   currentSlide: number;
@@ -8,11 +13,11 @@ interface SlideState {
 
 const Hero = () => {
   const slides: string[] = [
-      "../src/assets/slider-1.jpg",
-      "../src/assets/slider-2.jpg",
-      "../src/assets/slider-3.jpg",
-      "../src/assets/slider-4.jpg",
-      "../src/assets/slider-5.jpg",
+      Slide_1,
+      Slide_2,
+      Slide_3,
+      Slide_4,
+      Slide_5,
     ];
   const {currentSlide}: SlideState = useSlide(slides)
 
