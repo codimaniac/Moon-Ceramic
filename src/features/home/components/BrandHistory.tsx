@@ -1,10 +1,8 @@
 import { Button, SectionLayout } from "../../../components";
+import CeramicImageOne from "../../../assets/history-1.jpg"
+import CeramicImageTwo from "../../../assets/history-2.jpg"
 
 const BrandHistory = () => {
-  const ceramicImg: string[] = [
-    "../src/assets/history-1.jpg",
-    "../src/assets/history-2.png",
-  ];
   return (
     <SectionLayout>
       <div className="grid grid-cols-1 min-[820px]:grid-cols-2">
@@ -22,11 +20,11 @@ const BrandHistory = () => {
         </div>
         <div
           className="min-[820px]:flex-1 order-2 w-full h-70 bg-cover bg-center"
-          style={{ backgroundImage: `url('${ceramicImg[0]}')` }}
+          style={{ backgroundImage: `url('${CeramicImageOne}')` }}
         ></div>
         <div
           className="min-[820px]:flex-1 order-4 min-[820px]:order-3 w-full h-70 bg-cover bg-center"
-          style={{ backgroundImage: `url('${ceramicImg[1]}')` }}
+          style={{ backgroundImage: `url('${CeramicImageTwo}')` }}
         ></div>
         <div className="flex flex-col flex-1 order-3 min-[820px]:order-4 items-center justify-center gap-4 px-6 py-12 bg-desert-storm min-[820px]:py-0">
           <h2 className="text-neutral-custom-800 text-2xl times text-center font-semibold uppercase tracking-wider">
