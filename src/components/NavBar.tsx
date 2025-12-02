@@ -18,7 +18,7 @@ const NavBar = () => {
         <button onClick={toggleNav}><img src={Menu} alt="Menu" /></button>
         { isNavOpen && 
           <ul className="absolute z-1000 bg-neutral-custom-100 left-0 bottom-0 translate-y-full flex flex-col border-b border-b-neutral-custom-400 w-full scale-up-center">
-            <NavMenuItems className="px-5 py-5 hover:bg-amber-500" />
+            <NavMenuItems className="px-5 py-5 hover:bg-neutral-custom-300" />
           </ul>
         }
       </div>
